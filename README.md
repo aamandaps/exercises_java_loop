@@ -1,4 +1,4 @@
-# Algoritmos de Estrutura de Decisão - Java
+# Algoritmos de Estrutura de Repetição - Java
 
 1- Calcule e mostre o quadrado dos números entre 10 e 150.
 
