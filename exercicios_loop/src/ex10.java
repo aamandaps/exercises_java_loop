@@ -25,7 +25,7 @@ public class ex10 {
         }
 
         // Loop que vai percorrer os números
-        for (int num = maior; num<=menor; num++)
+        for (int num = menor; num<maior; num++)
         {
             qnt_divisor = 0;
 
@@ -38,12 +38,14 @@ public class ex10 {
                     qnt_divisor += 1;
                 }
 
-                // Condicional para números primos
-                if (qnt_divisor==2)
-                {
-                    JOptionPane.showMessageDialog(null, "Número primo -> "+num);
-                }
             } // Fim Loop Divisores
+
+            // Condicional para números primos
+            if (qnt_divisor==2)
+            {
+                JOptionPane.showMessageDialog(null, "Número primo -> "+num);
+            }
+
         } // Fim Loop Números
 
 
